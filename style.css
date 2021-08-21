@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Rampart+One&family=Rubik:ital,wght@0,700;1,300&display=swap');
+
+h2{
+    display: flex;
+    align-items: center;
+}
+
+.div2{
+    padding: 20px;
+}
+.div1{    
+    display: flex;
+    justify-content: center;    
+    border-radius: 8px;
+    background-color: hsl(265deg 30% 14%);
+    height: 250px;
+    width: 580px;
+}
+p{
+    color: white;        
+}
+.p1{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.p2{
+    font-size: 12px;     
+     font-family: 'Inconsolata', monospace;
+     color: wheat;
+}
+
+body{
+    position: relative;
+    background-color: #514d57;
+    display: flex;    
+    justify-content: center;
+}
+
+.divimage{
+    width: 100%;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-top: 40px;   
+    color: white; 
+}
+
+.list{
+    color: wheat;    
+    font-family: 'Inconsolata', monospace;
+    font-size: 12px;
+}
+
+li{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100px;   
+}
